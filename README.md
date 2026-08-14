@@ -19,6 +19,10 @@ before replacing the mock with a real synthesizer.
 - [ngrok](https://ngrok.com/) or another public tunnel
 - Agora App ID + App Certificate (the [Agora CLI](https://github.com/AgoraIO/cli) makes this easy)
 
+The same commands work on macOS, Linux, and Windows. On macOS/Linux, setup uses
+`python3`; on Windows, it uses the Python launcher (`py`) or `python`. WSL and
+virtualenv activation are not required.
+
 ## Run it
 
 ```bash
